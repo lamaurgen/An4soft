@@ -1,0 +1,72 @@
+.navbar{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    /* justify-content: space-between; */
+}
+.pet{
+    color: blueviolet;
+    color: blueviolet;
+    padding-top: 23px;
+    padding-left: 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.navbar ul{
+    list-style: none;
+}
+.navbar li{
+    padding: 10px;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+.navbar p{
+           color: white;
+    padding-top: 7px;
+    padding-left: 33px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+
+.navleft{
+    width: 10%;
+        display: flex;
+
+  
+}
+
+.navmid{
+    width: 70%;
+}
+
+.navmid a{
+    padding: 10px 40px;
+}
+
+.navright{
+    width: 20%;
+    float: right;
+    padding-top: 20px;
+}
+
+.navright button{
+    padding: 10px;
+    width: 80px;
+   color: white;
+    margin-left: 30px;
+    border: 1px solid blueviolet;
+}
+
+.btnblue{
+    background-color: blueviolet;
+}
+
+.btnblack{
+    background-color: black;
+}

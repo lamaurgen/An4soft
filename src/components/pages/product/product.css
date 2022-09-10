@@ -1,0 +1,64 @@
+.feature-container{
+    background-color:#1C1C1E ;
+    height: auto;
+        margin-top: -25px;
+}
+.feature-container h3{
+    padding: 39px;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+.featured-box{
+    display: flex;
+
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+ /* height: 500px; */
+ gap: 15px;
+}
+
+.box{
+    flex: 22%;
+    height: 300px;
+    background-color: black;
+    margin: 15px;
+    
+}
+.box .dog-img{
+        height: 176px;
+    width: 351px;
+}
+
+
+.box .name{
+    color: white;
+}
+.box .price{
+    color: blueviolet;
+}
+
+.box .star{
+    color: orange;
+   
+}
+ .see-more{
+   
+     display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  
+}
+
+.see-more button{
+    padding: 6px;
+    color: white;
+    background-color: black;
+    margin: 15px;
+    border: 1px solid blueviolet;
+
+}

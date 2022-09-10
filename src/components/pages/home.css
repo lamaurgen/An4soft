@@ -1,0 +1,121 @@
+.container{
+   display: flex;
+   
+}
+.container .left{
+        width: 45%;
+    background: black;
+}
+.container .right{
+    width: 55%;
+    background: black;
+}
+
+.left-content{
+        float: left;
+    width: 100%;
+    /* display: flex;
+    flex-direction: column; */
+    display: block;
+    color: white;
+   
+    margin: 3rem;
+}
+ .bg-img{
+       height: 500px;
+   
+    width: 100%;
+}
+
+.left-content .title{
+    font-size: 20px;
+    font-weight: 600;
+}
+.left-content .title-next{
+    font-size: 20px;
+    font-weight: 600;
+   
+}
+.left-content input[type="text"]{
+    width: 60%;
+    display: block;
+    padding: 10px;
+    margin: 10px 3px;
+}
+
+.right-content .featured-img{
+    height: 500px;
+    z-index: -1;
+    /* position: absolute; */
+    width: 100%;
+}
+
+
+
+
+
+.shop{
+       background-color: blueviolet;
+    color: white;
+    width: 100px;
+    padding: 10px;
+    border: none;
+    float: left;
+   
+
+}
+.box-title{
+   background-color: #9786AC;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -5px;
+}
+
+/* news letter css */
+.news-container{
+    /* background-image: url(../image/cat.jpg); */
+        margin-top: -2rem;
+  
+}
+ .featured-img{
+        height: 500px;
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+}
+
+.bg-news{
+   text-align:center ;
+    color: white;
+    
+}
+.bg-news h3{
+    padding-top: 120px;
+    font-size: 29px;
+}
+.bg-news p{
+    font-size: 16px;
+}
+.bg-news span{
+    display: block;
+}
+
+.bg-news input[type="text"]{
+       width: 30%;
+    display: block;
+    padding: 10px;
+   
+    margin: 10px auto;
+    border: 1px solid blueviolet;
+}
+
+.bg-news button{
+    background-color: blueviolet;
+    color: white;
+    width: 100px;
+    padding: 8px 15px;
+    border: none;
+    
+}
+
